@@ -1,4 +1,4 @@
-view: sql_runner_query {
+view: retention_percent {
   derived_table: {
     sql: select DATE(START_DATE_EOMONTH) AS "MONTH",
           CONCAT(CAST(COUNT(DISTINCT case when MONTHS_RETAINED >= 0 then (PATIENT_NAME) else null end)/COUNT(DISTINCT PATIENT_NAME)*100 as INT),'%') AS "R00",
