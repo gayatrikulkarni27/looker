@@ -4,7 +4,7 @@ view: messages {
   drill_fields: [message_id_conversation_id_created_timestamp_internal_actor_entity_id_message_trigger_message_body_destinations]
 
   dimension: message_id_conversation_id_created_timestamp_internal_actor_entity_id_message_trigger_message_body_destinations {
-    primary_key: yes
+    # primary_key: yes
     type: string
     sql: ${TABLE}."MESSAGE_ID_CONVERSATION_ID_CREATED_TIMESTAMP_INTERNAL_ACTOR_ENTITY_ID_MESSAGE_TRIGGER_MESSAGE_BODY_DESTINATIONS" ;;
   }
