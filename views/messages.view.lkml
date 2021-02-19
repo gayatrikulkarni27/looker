@@ -35,6 +35,7 @@ view: messages {
   }
 
   dimension: conversation_id {
+    primary_key: yes
     type: string
     # hidden: yes
     sql: ${TABLE}."CONVERSATION_ID" ;;

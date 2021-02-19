@@ -43,6 +43,7 @@ view: entities_new {
   }
 
   dimension: entity_id {
+    primary_key: yes
     type: string
     sql: ${TABLE}."ENTITY_ID" ;;
   }
