@@ -1,4 +1,4 @@
-project_name: "demo"
+project_name: "actionable_insight"
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
@@ -6,7 +6,7 @@ project_name: "demo"
 # local_dependency: {
 #   project: "name_of_other_project"
 # }
-application: globallogic {
+application: actionable_insight {
   label: "Actionable Insight"
 #   url: "http://localhost:8080/bundle.js"
   file: "bundle.js"
